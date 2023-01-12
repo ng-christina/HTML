@@ -15,6 +15,10 @@
 
 .logotype{
     color: #4D5AE5;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1,33;
  }
 
  .logo-header{
@@ -54,9 +58,9 @@
     letter-spacing: 0.02em;
     color:#434455;
 }
-.mail:hover,
-.mail:focus{
-
+.tel:hover,
+.tel:focus{
+    color: #4D5AE5;
 }
 
 .mail{
@@ -67,6 +71,11 @@
     letter-spacing: 0.02em;
     color:#434455;
  }
+
+.mail:hover,
+.mail:focus{
+    color: #4D5AE5;
+}
 
  /* maine */
 .maine{
@@ -226,22 +235,31 @@
 }
  
 .list-portfolio{
-
+    cursor: pointer;
 }
 
 .btn{
-cursor: pointer;
+
 }
 
 .button{
     font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1,5;
-    color: #4D5AE5;
-    background: #F4F4FD;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+color: #4D5AE5;
+background: #F4F4FD;
+
 }
 
+.btn:hover,
+:focus{
+
+}
 /* Gallery */
 
 .gallery-list{
