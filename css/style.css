@@ -1,6 +1,7 @@
 :root {
 /* Font */
-
+--maine-fonts: 'Roboto', sans-serif;
+--secondary-fonts: 'Raleway', sans-serif;
 
 
 /* Text color */
@@ -29,7 +30,8 @@
 }
 
 .body{
-
+font-family: var(--maine-fonts);
+color: var(--text);
 }
 
 
@@ -91,7 +93,7 @@
     font-size: 16px;
     line-height: 1,5;
     letter-spacing: 0.02em;
-    color:var(--text);
+    color:currentColor;
 }
 .tel:hover,
 .tel:focus{
@@ -123,7 +125,6 @@
  }
 .motto{
     font-family: 'Roboto', sans-serif;
-    font-weight: 700;
     font-size: 56px;
     line-height: 1,07;
     text-align: center;
@@ -133,7 +134,7 @@
  }
 
 .modal-btb{
-    font-family: 'Roboto', sans-serif;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1,5;
@@ -173,7 +174,7 @@
  }
 
 .text-future{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -188,7 +189,6 @@
 
 .title{
     font-family: 'Roboto', sans-serif;
-    font-weight: 700;
     font-size: 36px;
     line-height: 1,11;
     color:var(--modal-overlay);
@@ -207,8 +207,6 @@
 }
 .our{
     font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-weight: 700;
     font-size: 36px;
     line-height: 1,11;
     color:var(--modal-overlay);
