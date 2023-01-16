@@ -112,7 +112,7 @@ color: var(--text);
  }
  .menu-link:hover,
  .menu-link:focus{
-    color:var(--ctas-focusedActive-statesLink);
+    color:var(--ctas);
  }
  /* contacts */
 .tel{
@@ -268,30 +268,37 @@ color: var(--text);
 }
  
 .list-portfolio{
- 
 }
 
 .btn{
-
 }
 
 .button{
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1,5;
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
-    color:var(--ctas-focusedActive-statesLink);
-    background:var(--background-light);
+    color: var(--ctas-focusedActive-statesLink);
+    background:var(--success-10);
     cursor: pointer;
+    border: none;
 }
 
 .button:hover,
 :focus{
-    background:var(--background-blue);}
+    background:var(--background-blue);
+}
+
+.btn-all{
+    color:var(--white);
+    background-color: var(--background-blue);
+}
+
+
 /* Gallery */
 
 .gallery-list{
