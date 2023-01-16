@@ -42,6 +42,34 @@ color: var(--text);
     text-decoration: none;
 }
 
+.title{
+    font-family: 'Roboto', sans-serif;
+    Font-style: Bold;
+    Font-size: 36px;
+    Line-height: 40px;
+    Line-height: 95%;
+    Align: Center;
+    color: var(--modal-overlay);
+}
+
+.title3{
+    font-family: 'Roboto', sans-serif;
+    Font-style: Medium;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1,5;
+    color:var(--modal-overlay);
+}
+
+.text{
+    font-family: 'Roboto', sans-serif;
+    font-style: Regular;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,5;
+    color:var(--text);
+}
+
 /* Header */
 .header-page{
 }
@@ -165,21 +193,11 @@ color: var(--text);
  }
 
 .quality{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1,2;
-    letter-spacing: 0.02em;
-    color:var(--modal-overlay);
+  
  }
 
 .text-future{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color:var(--text);
+
  }
 
  /* What are we doing */
@@ -187,11 +205,8 @@ color: var(--text);
     
 }
 
-.title{
-    font-family: 'Roboto', sans-serif;
-    font-size: 36px;
-    line-height: 1,11;
-    color:var(--modal-overlay);
+.title-do{
+
  }
 .picture-title{
 
@@ -206,10 +221,7 @@ color: var(--text);
     background:var(--background-light);
 }
 .our{
-    font-family: 'Roboto', sans-serif;
-    font-size: 36px;
-    line-height: 1,11;
-    color:var(--modal-overlay);
+ 
  }
 
 .team{
@@ -225,19 +237,11 @@ color: var(--text);
  }
 
 .name{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1,5;
-    color:var(--modal-overlay);
+   
  }
 
 .position{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1,5;
-    color:var(--text);
+
 }
 
 
@@ -248,10 +252,6 @@ color: var(--text);
 }
 
 .details{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1,5;
     color:var(--accent);
 }
 
@@ -317,20 +317,10 @@ color: var(--text);
 }
 
 .subtitle{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1,2;
-    letter-spacing: 0.02em;
-    color:var(--modal-overlay);
+  
 }
 
 .text-gallery{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1,5;
-     letter-spacing: 0.02em;
-    color:var(--text);
+
     
 }
