@@ -269,6 +269,15 @@ color: var(--text);
  
 .list-portfolio{
 }
+.list-portfolio .button{
+    color: var(--ctas-focusedActive-statesLink);
+    background:var(--success-10);
+}
+ 
+.list-portfolio .button.current {
+   
+    background-color: var(--background-blue);
+}
 
 .btn{
 }
@@ -293,10 +302,6 @@ color: var(--text);
     background:var(--background-blue);
 }
 
-.btn-all{
-    color:var(--white);
-    background-color: var(--background-blue);
-}
 
 
 /* Gallery */
